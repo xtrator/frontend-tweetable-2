@@ -4,6 +4,7 @@
 @import "tweet/tweet.css";
 @import "page/nav.css";
 @import "page/feed.css";
+@import "page/home.css";
 
 :root {
   --primary: #1DA1F2;
@@ -32,6 +33,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--background-2);
+  background-color: var(--background);
 }
 
 code {

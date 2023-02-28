@@ -3,7 +3,7 @@
     padding: 8px 16px;
     gap: 8px;
     max-width: 600px;
-    background-color: white;
+    background-color: var(--background-2);
 }
 
 .tweet-form__content {

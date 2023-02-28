@@ -1,0 +1,15 @@
+.home {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background);
+    gap: 2px;
+}
+.home__title {
+    background-color: var(--background-2);
+    width: 100%;
+    text-align: center;
+}
+.home__wrapper {
+    display: flex;
+    justify-content: center;
+}

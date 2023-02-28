@@ -5,7 +5,7 @@ import NavLogin from './NavLogin';
 export default function Navbar() {
 const userHasLoggedIn = true;
   return (
-    <div>
+    <div className='navbar'>
       <NavItem type={"logo"}/>
       <NavItem type={"home"}/>
       <NavItem type={"user"}/>
