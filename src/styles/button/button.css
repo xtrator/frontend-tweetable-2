@@ -1,0 +1,40 @@
+.button {
+    height: 40px;
+    width: 88px;
+    left: 221px;
+    top: 40px;
+    border-radius: 100px;
+    padding: 8px 16px 8px 16px;
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+    color: white;
+}
+
+.button-l {
+    height: 56px;
+    width: 145px;
+    left: 42px;
+    top: 24px;
+    border-radius: 100px;
+    padding: 16px;
+}
+
+.button-s {
+    height: 32px;
+    width: 88px;
+    left: 347px;
+    top: 48px;
+    border-radius: 100px;
+    padding: 4px 16px 4px 16px;
+}
+
+.button-ghost {
+    background-color: transparent;
+    color: var(--primary)
+}
+
+.button-browse {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
