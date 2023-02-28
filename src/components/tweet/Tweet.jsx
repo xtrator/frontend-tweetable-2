@@ -4,7 +4,7 @@ import {
   heartIcon,
   trashIcon,
 } from "../../assets/icons/icons";
-import thanosUrl from './thanos.jpg'
+import thanosUrl from '../../assets/images/thanos.jpg'
 
 export default function Tweet() {
   return (

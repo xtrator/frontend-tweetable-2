@@ -1,4 +1,4 @@
-import thanosUrl from './thanos.jpg'
+import thanosUrl from '../../assets/images/thanos.jpg'
 
 export default function TweetFrom() {
   return (
