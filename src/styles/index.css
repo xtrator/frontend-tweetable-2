@@ -1,7 +1,8 @@
-@import "App.css";
+/* @import "App.css"; */
 @import "button/button.css";
 @import "input/textInput.css";
 @import "tweet/tweet.css";
+@import "page/nav.css";
 
 :root {
   --primary: #1DA1F2;
@@ -47,6 +48,9 @@ code {
 .text-l-bold,
 .text-s-bold,
 .text-xs-bold  */
+.text-secondary {
+  color: var(--secondary-text);
+}
 .text-xl {
   font-weight: 400;
   font-size: 30px;
