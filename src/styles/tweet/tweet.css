@@ -3,7 +3,6 @@
     padding: 8px 16px;
     gap: 8px;
     max-width: 600px;
-    border: 1px solid black;
     background-color: white;
 }
 
@@ -16,6 +15,7 @@
 }
 
 .tweet__content {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 8px;

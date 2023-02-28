@@ -3,6 +3,7 @@
 @import "input/textInput.css";
 @import "tweet/tweet.css";
 @import "page/nav.css";
+@import "page/feed.css";
 
 :root {
   --primary: #1DA1F2;
