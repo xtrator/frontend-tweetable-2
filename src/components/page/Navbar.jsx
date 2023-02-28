@@ -8,8 +8,8 @@ const userHasLoggedIn = true;
     <div className='navbar'>
       <NavItem type={"logo"}/>
       <NavItem type={"home"}/>
-      <NavItem type={"user"}/>
-      <NavLogin/>
+      {userHasLoggedIn && <NavItem type={"user"}/>}
+      {!userHasLoggedIn && <NavLogin/>}
     </div>
   )
 }
