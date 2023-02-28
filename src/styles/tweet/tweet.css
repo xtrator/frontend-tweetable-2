@@ -6,6 +6,30 @@
     background-color: var(--background-2);
 }
 
+.tweet-form { 
+    width: 100%;
+    margin-bottom: 18px;
+}
+.tweet-form-textarea {
+    width: 100%;
+    outline: none;
+    outline: none;
+    border: none;
+    background-color: var(--background-2);
+    resize: none;
+    overflow: hidden;
+    height: auto;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.tweet-form-textarea::placeholder{
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+}
+
 .tweet-form__content {
     display: flex;
     flex-direction: column;
